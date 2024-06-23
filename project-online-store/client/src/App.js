@@ -71,7 +71,6 @@ class App extends React.Component {
     });
   }
 
-
   deleteOrder(id) {
     this.setState({ order: this.state.order.filter((el) => el.id !== id) });
   }
