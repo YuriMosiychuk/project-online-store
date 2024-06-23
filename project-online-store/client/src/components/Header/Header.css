@@ -1,0 +1,108 @@
+.container_1 {
+  background-color: rgb(44, 41, 41);
+  height: 50px;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  position: relative;
+}
+
+.logo-block{
+margin-top: 15px;
+}
+
+.src {
+  width: 50px;
+  border-radius: 30px;
+}
+
+.nav-list-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  margin-top: 15px;
+}
+
+.nav-list-link::after {
+  content: "";
+  text-align: center;
+  background: #5a4f4f;
+  height: 2px;
+  width: 75px;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  transition: all 0.25s ease; 
+  transform: scaleX(0);
+}
+
+.nav-list-link:hover::after {
+  transform: scaleX(1.5);
+}
+
+.FaCart {
+  transition: color, transform 500ms ease;
+  transform: scale(2);
+  color: rgb(88, 182, 88);
+  margin-right: 15px;
+}
+
+.FaCart:hover {
+  color: #ca5252;
+  transform: scale(2.5);
+}
+
+.cart-shop {
+  width: 450px;
+  top: 50px;
+  background: rgb(230, 223, 223);
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  z-index: 1000;
+}
+.I-te-m {
+  width: 100%;
+  float: left;
+  margin: 10px;
+}
+.I-te-m img {
+  width: 70px;
+  float: left;
+  margin-top: 20px;
+}
+
+.I-te-m h2 {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.I-te-m p {
+  color: #5fa35a;
+}
+
+.I-te-m .deleteimg {
+  color: rgb(230, 95, 95);
+  float: right;
+  position: relative;
+  top: -25px;
+  transition: color, transform 500ms ease;
+  margin-right: 10px;
+}
+
+.I-te-m .deleteimg:hover {
+  color: red;
+  transform: scale(1.5);
+}
+
+.Sum {
+  float: right;
+  width: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 10px;
+}

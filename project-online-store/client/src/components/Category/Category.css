@@ -1,0 +1,29 @@
+.categories {
+  background: url(./img2/img2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: flex-end;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.categories div {
+  background: rgb(190, 167, 167);
+  border-radius: 50px;
+  transition: all 500ms ease;
+  width: 100px;
+  height: 80px;
+  padding: 10px 10px;
+
+}
+
+.categories div:hover {
+  transform: scale(1.2);
+}

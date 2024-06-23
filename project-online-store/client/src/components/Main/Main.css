@@ -1,0 +1,92 @@
+.full-Shop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 1000;
+  overflow: auto;
+}
+
+.full-Shop > div {
+  width: 650px;
+  position: relative;
+  margin: 10% auto;
+  padding: 30px 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+.box-3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  background: rgb(230, 223, 223);
+}
+
+.box-3 div {
+  width: 25%;
+  margin: 25px;
+  background: rgb(230, 223, 223);
+  overflow: hidden;
+}
+
+.box-3 div img,
+.full-Shop img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 500ms ease;
+}
+
+.box-3 div img:hover,
+.full-Shop img:hover {
+  transform: scale(1.05);
+}
+
+.box-3 h2,
+.box-3 p,
+.box-3 b,
+.full-Shop h2,
+.full-Shop p,
+.full-Shop b {
+  margin: 10px 10px;
+  color: #333;
+}
+
+.box-3 b,
+.full-Shop b {
+  color: #5fa35a;
+}
+
+.box-3 .ddd,
+.full-Shop .ddd {
+  background: #ca5252;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  color: white;
+  border-radius: 50%;
+  margin-left: 10px;
+  font-weight: 600;
+  transition: transform 500ms ease;
+}
+
+.box-3 .ddd:hover,
+.full-Shop .ddd:hover {
+  transform: scale(1.5) translateY(-5px);
+}
+
+.d-block {
+  height: 500px;
+}
+
+.text-2-2 {
+  background-color: #5e4d2f;
+  text-align: center;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0px;
+}

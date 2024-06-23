@@ -1,0 +1,25 @@
+.container_3{
+    background-color:rgb(44, 41, 41);
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    }
+    
+     ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    }
+    
+    .container_4 {
+        background-color:black;
+    height: 25px;
+    color:white;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bolder;
+    }
